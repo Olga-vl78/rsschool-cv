@@ -17,8 +17,7 @@ I am a hard working, focused, responsible and easy adaptable person with a passi
 + Belarusian State University, Faculty of Philology
 + Streamline Language School, English courses, Intermediate level
 + Streamline Language School, English courses, Upper Intermediate level
-+ Minsk State Linguistic University, Special Faculty of Foreign Languages for Administrative
-Retraining
++ Minsk State Linguistic University, Special Faculty of Foreign Languages for Administrative Retraining
 + IT-Academy, Basics of web technologies
 
 ## Skills
@@ -37,18 +36,18 @@ Retraining
 
 ```
 function capital (state_capital){
-   let  result = [];
-   for (let elem in state_capital) {
-   result.push(`The capital of ${elem.state || 
-   elem.country} is ${elem.capital`});
+    let  result = [];
+    for (let elem in state_capital) {
+    result.push(`The capital of ${elem.state || 
+    elem.country} is ${elem.capital`});
    }
   return result;
   };
 
 function positiveSum(arr) {
-  let sum =  0;
-  for (let i = 0; i < arr.length; i++) {
-          sum += arr[i] >= 0 ? arr[i] : 0;
+   let sum =  0;
+   for (let i = 0; i < arr.length; i++) {
+   sum += arr[i] >= 0 ? arr[i] : 0;
   }
   return sum;
   };
