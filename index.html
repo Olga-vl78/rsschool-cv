@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <header>
+            <img class="avatar" src="src/IMG1.jpg" alt="Avatar">
+            <h1 class="main-heading">Olga Butovich</h1>
+            <div class="user-contacts">
+                <p><b>Mobile:</b> +375 29 633 85 38 </p>
+                <p><b>e-mail:</b> <a href="mailto:olga@butovich.com">olga@butovich.com</a></p>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h2 class="subheading"> Personal Profile Statement</h2>
+                <div class="section-text">
+                    <p>I am a hard working, focused, responsible and easy adaptable person with a passion for learning
+                        and developing of new and existing skills. I have a methodical approach to work and a strong
+                        drive to see things through to completion. I am a reliable colleague and I work effectively
+                        individually as well as part of a team. I am looking for a position in an IT company to use
+                        the professional and technical skills developed through education and training in this
+                        field.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="subheading">Education and Qualifications</h2>
+                <div class="section-text">
+                    <ul>
+                        <li>Belarusian State University, Faculty of Philology</li>
+                        <li>Streamline Language School, English courses, Intermediate level</li>
+                        <li>Streamline Language School, English courses, Upper Intermediate level</li>
+                        <li>Minsk State Linguistic University, Special Faculty of Foreign Languages for Administrative
+                            Retraining</li>
+                        <li>IT-Academy, Basics of web technologies</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="subheading">Skills</h2>
+                <div class="section-text">
+                    <ul>
+                        <li>Basic knowledge of HTML, CSS, JS</li>
+                        <li>Version control systems: GitHub</li>
+                        <li>Code editors: Visual Studio Code, WebStorm</li>
+                        <li>Languages: Russian, Belarusian, English (B1)</li>
+                        <li>Multitasking, ability to prioritize workload in face of deadlines</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="subheading">Code examples</h2>
+                <div class="code">
+                    <pre>
+function capital (state_capital){
+    let  result = [];
+    for (let elem in state_capital) {
+    result.push(`The capital of ${elem.state || 
+    elem.country} is ${elem.capital`});
+   }
+  return result;
+  };
+
+function positiveSum(arr) {
+   let sum =  0;
+   for (let i = 0; i < arr.length; i++) {
+   sum += arr[i] >= 0 ? arr[i] : 0;
+  }
+  return sum;
+  };
+</pre>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="subheading">Hobbies and Interests</h2>
+                <div class="section-text">
+                    <p>I enjoy traveling. It gives me not only an opportunity to visit new countries and see famous
+                        sights but
+                        also to meet new people, know about their life style and interests. Travelling also gives me a
+                        chance to improve my
+                        language skills and of course just to take a break from all and relax.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
