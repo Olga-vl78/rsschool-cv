@@ -1,8 +1,10 @@
 
 
-
+* {
+    box-sizing: border-box;
+  }
 .container {
-    width: 80%;
+    max-width: 1000px;
     margin: 30px auto;
     
     padding: 5px;
