@@ -1,0 +1,88 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    
+    padding: 5px;
+    font: 1.2em Georgia, 'Times New Roman', Times, serif;
+    background-color:  #fdffff;
+    border: 3px solid #eceeee;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+header {
+    width: 100%;
+    padding-bottom: 100px;
+    }
+
+section {
+    padding: 5px 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    background-color: #c7f2f5;
+}
+
+.avatar {
+    float: left;
+    width: 280px;
+    margin: 30px 50px;
+}
+
+.main-heading {
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 3.3em;
+    color:#054144;
+    background-color: #10d3e0;
+}
+
+.user-contacts {
+    padding: 0 10px;
+    list-style: none;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.4em;
+    color: #064b52;
+    background-color: #c7f2f5;
+}
+
+.subheading {
+    color: #0a8c96;
+}
+
+.section-text {
+    text-align: justify;
+    line-height: 1.5em;
+    color: gray;
+    border-top: 3px solid #8bc3d4;
+}
+.section-code {
+    border-top: 3px solid #8bc3d4;
+}
+
+.code {
+    padding: 10px 25px;
+    background-color:  #f2f8fa;
+}
+.rs-school-logo {
+    display: inline-block;
+    width: 150px;
+    font-size: 5em;
+}
+.gh {
+    width:60px;
+}
+.project-year {
+    font-size: 1.5em;
+}
+
+
+
